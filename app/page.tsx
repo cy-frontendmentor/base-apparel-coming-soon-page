@@ -2,13 +2,14 @@ import Image from "next/image";
 import Form from "../components/form";
 const page = () => {
   return (
-    <div className="  mx-auto grid max-w-[1440px] md:mt-[80px] md:grid-cols-[auto_42%] md:grid-rows-[min-content_1fr] ">
+    <div className="  mx-auto grid max-w-[1440px]  md:grid-cols-[auto_42%] md:grid-rows-[min-content_1fr] ">
       <div className="md: py-8 pl-8 md:mr-[55px] md:w-[445px] md:justify-self-center md:p-0  md:pt-[75px]">
         <Image
           src="/images/logo.svg"
           alt="logo"
           width={100}
           height={20}
+          className="md:h-[33px] md:w-[158px]"
         ></Image>
       </div>
       {/* image */}
